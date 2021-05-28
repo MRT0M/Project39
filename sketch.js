@@ -61,7 +61,7 @@ function setup() {
   restart.visible = false;
   
   invisibleGround = createSprite(200,190,400,10);
-  invisibleGround.visible = true;
+  invisibleGround.visible = false;
   
   cloudsGroup = new Group();
   obstaclesGroup = new Group();
